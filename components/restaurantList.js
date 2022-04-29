@@ -56,7 +56,7 @@ if(searchQuery.length > 0){
           top={true}
           style={{ height: 200 }}
           src={
-          `http://18.224.252.54`+ res.image.url
+          `http://3.142.154.81`+ res.image.url
           }
         />
         <CardBody>
