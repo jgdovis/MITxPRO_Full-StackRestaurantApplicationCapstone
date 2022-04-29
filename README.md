@@ -3,7 +3,11 @@
 ## DESCRIPTION
 
 MITxPRO-Full-Stack Restaurant Application-Capstone is the final project required as part of my learning process as a full stack MERN developer with MITxPR.
-The front end is build with React.
+Front-end architecture developed with Next.js
+backend running strapi
+Database
+API
+Deployment
 This full stack Restaurant application main idea is based on a restaurant search app.
 
 # Next-React Frontend for Restaurants
@@ -34,6 +38,12 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
+## Starting the back end
+From that directory, run npm install, followed by npm run build, followed by npm run develop. Then, navigate to localhost:1337 in your browser to confirm that Strapi is running.
+
+## For the Backend repository please ckeck check out [the backend GitHub repository](https://github.com/jgdovis/MITxpro_FullStackRestaurantapp_backend)
+
+
 <!-- Skils -->
 ### Skills 
 <table>
@@ -52,6 +62,7 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
            <li>Font Awesome</li>
           <li>MongoDB</li>
           <li>Next.js</li>
+          <li>Strapi</li>
           <li>Docker</li>
           <li>ReactApp</li>
           <li>Database And API</li>
@@ -59,7 +70,7 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
   <tbody>
 <table>
 
- ## Files 📁
+ ## Frontend Files 📁
  - Root
    - .next
    - .vscode
@@ -80,16 +91,42 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
    - README.md
    - server.js
 
+ ## backend Files 📁
+ - Root
+   - .tmp
+   - .api
+   - config
+   - exports
+   - extentions
+   - node_module
+   - public
+   - .editorconfig
+   - env.example
+   - .eslintignore
+   - eslintrc
+   - gitattributes
+   - gitignore
+   - strapi-update.json
+   - lICENSE
+   - favicon.ico
+   - package-lock.json
+   - package.json
+   - README.md
+  
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+### To learn more about Next.js, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-  
+    
+  ### To learn more about strapi, take a look at the following resources:
+
+- [strapi Documentation](https://strapi.io/resource-center) - learn about strapi.
+- You can check out [the strapi GitHub repository](https://github.com/strapi/)
   ## INSTALLATION GUIDELINES
 
 ### _Pre-requisites_
@@ -115,7 +152,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
   
 ### frontend is running on AWS EC2
 ### backend is running on AWS EC2
-### strapi is running on AWS EC2 
 ### All connected by AWS Route 53 (need to register a domain on AWS Route 53 Hosted zone.)
 
   
